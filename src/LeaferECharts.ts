@@ -1,5 +1,5 @@
 import { Image, Platform, boundsType, registerUI } from 'leafer-ui'
-import * as echarts from 'echarts'
+import { init as initEChart } from 'echarts'
 import type { EChartsOption } from 'echarts'
 
 export type LeaferEChartOptions = {
@@ -42,7 +42,7 @@ class LeaferECharts extends Image {
     }
 
     static renderSVG(option: EChartsOption, width: number, height: number) {
-        const chart = echarts.init(null, null, {
+        const chart = initEChart(null, null, {
             renderer: 'svg',
             ssr: true,
             width,
