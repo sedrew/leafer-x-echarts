@@ -1,6 +1,6 @@
-# leafer-x-echarts
+# leafer-echarts
 
-[![npm version](https://img.shields.io/npm/v/leafer-x-echarts.svg)](https://www.npmjs.com/package/leafer-x-echarts)
+[![npm version](https://img.shields.io/npm/v/leafer-echarts.svg)](https://www.npmjs.com/package/leafer-echarts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A custom Leafer UI element that renders **[ECharts](https://echarts.apache.org/)** charts as **SVG** inside a Leafer canvas.  
@@ -12,7 +12,7 @@ Perfect for adding interactive data visualizations to your Leafer applications.
 - Fully reactive – update chart data with `updateOption()`
 - Supports all ECharts features (tooltips, legends, animations – though animations are disabled in SSR mode)
 - Integrates seamlessly with Leafer UI's event system (draggable, editable, etc.)
-- Lightweight plugin architecture – register once and use everywhere
+- Easy to use – just import and instantiate
 
 ## 📦 Installation
 
