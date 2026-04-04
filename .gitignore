@@ -22,8 +22,8 @@ temp/
 .vscode/
 
 # Test artifacts
-tests/__snapshots__/
-tests/__image_snapshots__/
+__snapshots__/
+__image_snapshots__/
 *.snap
 
 # Package files
