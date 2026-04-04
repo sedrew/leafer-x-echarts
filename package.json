@@ -1,0 +1,46 @@
+{
+  "name": "leafer-echarts",
+  "version": "0.1.0",
+  "description": "ECharts component for Leafer UI – render interactive charts as SVG inside Leafer canvas",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "echarts": ">=5.0.0 <6.0.0",
+    "leafer-ui": ">=2.0.0"
+  },
+  "devDependencies": {
+    "echarts": "^5.6.0",
+    "leafer-ui": "^2.0.8",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "leafer",
+    "leafer-ui",
+    "echarts",
+    "chart",
+    "svg",
+    "canvas"
+  ],
+  "author": "Sergei Malygin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sedrew/leafer-echarts"
+  }
+}
