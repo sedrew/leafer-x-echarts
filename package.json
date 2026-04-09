@@ -1,7 +1,7 @@
 {
-  "name": "leafer-echarts",
-  "version": "0.1.0",
-  "description": "ECharts component for Leafer UI – render interactive charts as SVG inside Leafer canvas",
+  "name": "leafer-x-echarts",
+  "version": "0.2.0",
+  "description": "ECharts component for Leafer UI – render interactive charts as SVG inside Leafer canvas (leafer-x plugin)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -54,5 +54,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sedrew/leafer-echarts"
+  },
+  "homepage": "https://github.com/sedrew/leafer-echarts#readme",
+  "bugs": {
+    "url": "https://github.com/sedrew/leafer-echarts/issues"
+  },
+  "dependencies": {
+    "leafer-x-echarts": "^0.2.0"
   }
 }

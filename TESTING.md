@@ -1,6 +1,6 @@
-# Testing leafer-echarts
+# Testing leafer-x-echarts
 
-This document describes the testing infrastructure for the `leafer-echarts` library.
+This document describes the testing infrastructure for the `leafer-x-echarts` library (LeaferX plugin).
 
 ## Test Structure
 
