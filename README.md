@@ -38,6 +38,7 @@ const chart = new LeaferECharts({
 });
 
 leafer.add(chart);
+```
 
 ## 🚀 Roadmap & TODO
 
@@ -67,4 +68,4 @@ leafer.add(chart);
 
 ### Contributing
 
-Feel free to open issues or pull requests for any of these features! Check the [GitHub Issues](https://github.com/sedrew/leafer-echarts/issues) for current discussions.
+Feel free to open issues or pull requests for any of these features! Check the [GitHub Issues](https://github.com/sedrew/leafer-x-echarts/issues) for current discussions.
